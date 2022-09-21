@@ -198,7 +198,7 @@ def chk():
 
   try: 
 
-    httpCaht = requests.get("https://https://pastebin.com/raw/rnPYd8K3").text 
+    httpCaht = requests.get("https://pastebin.com/raw/rnPYd8K3").text 
 
     if id in httpCaht: 
 

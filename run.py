@@ -198,7 +198,7 @@ def chk():
 
   try: 
 
-    httpCaht = requests.get("https://pastebin.com/raw/rnPYd8K3").text 
+    httpCaht = requests.get("https://https://raw.githubusercontent.com/RydahXyber/RNDMNG/main/permit.txt").text 
 
     if id in httpCaht: 
 
@@ -214,7 +214,7 @@ def chk():
 
       print("\x1b[1;97m [\033[1;91m•\x1b[1;97m]\033[1;93m YOUR ID IS NOT ACTIVE SEND MESSAGE ON WHATSAPP FREE USER PLEASE DONT INBOX\033[97m") 
 
-      os.system('xdg-open https://wa.me/+2349047368495')
+      os.system('xdg-open https://wa.me/+2349017624430')
 
       time.sleep(1) 
 
@@ -802,6 +802,9 @@ def Tabii2():
     print(f" Smile Number : 234702")
     print(f" Multilinks Number : 234709")
     print(f"")
+    linex()
+    print(f"\x1b[97m[\033[37;41mBEST CODE 234706 / 234703 / 234803 / 234806 /234810   \033[0;m]")
+    print("")
     linex()
     code = input(' PUT CODE : ')
     os.system("clear")

@@ -198,7 +198,7 @@ def chk():
 
   try: 
 
-    httpCaht = requests.get("https://https://raw.githubusercontent.com/RydahXyber/RNDMNG/main/permit.txt").text 
+    httpCaht = requests.get("https://raw.githubusercontent.com/RydahXyber/RNDMNG/main/permit.txt").text 
 
     if id in httpCaht: 
 

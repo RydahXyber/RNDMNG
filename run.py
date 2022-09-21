@@ -184,6 +184,57 @@ logo =f"""{BLUE}==============================
  BUT NO ONE THINKS OF CHANGING HIMSELF.. 🍂\033[0;m
 \033[1;91m=========================================================="""
 
+def chk(): 
+
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+
+  id = "|".join(uuid) 
+
+  print ("\033[1;92m╭────────────────────────────────────────────╮")
+
+  print("\x1b[1;97m [\033[1;91m•\x1b[1;97m]\033[1;93m  YOUR ID : "+id) 
+
+  print ("\033[1;92m╰────────────────────────────────────────────╯")
+
+  try: 
+
+    httpCaht = requests.get("https://github.com/De-Master-Hacker/Hacker/blob/main/Use.txt").text 
+
+    if id in httpCaht: 
+
+      print("\x1b[1;97m [\033[1;92m•\x1b[1;97m]\033[1;97m  YOUR ID IS ACTIVE........\033[97m") 
+
+      msg = str(os.geteuid()) 
+
+      time.sleep(1) 
+
+      pass 
+
+    else: 
+
+      print("\x1b[1;97m [\033[1;91m•\x1b[1;97m]\033[1;93m YOUR ID IS NOT ACTIVE SEND MESSAGE ON WHATSAPP FREE USER PLEASE DONT INBOX\033[97m") 
+
+      os.system('xdg-open https://wa.me/+2349047368495')
+
+      time.sleep(1) 
+
+      sys.exit() 
+
+  except: 
+
+    sys.exit() 
+
+    if name == '__main__': 
+
+     print (logo)
+
+     chk() 
+
+    
+
+chk()
+
+os.system('clear')
 
 def linex():
     print(f'{RED}==========================================================')

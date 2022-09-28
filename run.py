@@ -547,10 +547,10 @@ def free1(uid,pwx,tl):
                     break
             else:
                 continue
-        loop+=1
-        sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
-        sys.stdout.flush()
-        checks(ok,cp)
+            loop+=1
+            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.flush()
+            checks(ok,cp)
     except:
         pass
 
@@ -674,10 +674,10 @@ def free2(uid,pwx,tl):
                     break
             else:
                 continue
-        loop+=1
-        sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
-        sys.stdout.flush()
-        checks(ok,cp)
+            loop+=1
+            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.flush()
+            checks(ok,cp)
     except:
         pass
 #---------------------[PASS 5 CLONING MENU]---------------------#
@@ -795,10 +795,10 @@ def free(uid,pwx,tl):
                     break
             else:
                 continue
-        loop+=1
-        sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
-        sys.stdout.flush()
-        checks(ok,cp)
+            loop+=1
+            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.flush()
+            checks(ok,cp)
     except:
         pass
 #---------------------[MAIN CLONING DEF 2]---------------------#
@@ -917,10 +917,10 @@ def m(uid,pwx,tl):
                     break
             else:
                 continue
-        loop+=1
-        sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
-        sys.stdout.flush()
-        checks(ok,cp)
+            loop+=1
+            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.flush()
+            checks(ok,cp)
     except:
         pass
 

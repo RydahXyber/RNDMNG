@@ -370,7 +370,7 @@ def xyz():
     os.getuid
     
     os.system("clear");print(logo)
-    print('         \x1b[97m      [\033[32;41m  R S C T T E A M   \033[0;m] ')
+    print('         \x1b[97m        [\033[32;41m  R S C T T E A M   \033[1;97m] ')
     print(f"")
     print(f'{GREEN}══════════════════════════════════════════════════════')
     print(f" {WHITE}TODAY DATE & TIME     :{GREEN} {ha}/{bu}/{ta} {WHITE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")

@@ -164,7 +164,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-hamii2 = "\033[1;33m➤\033[1;32m➤\x1b[0m"
+hamii2 = "\033[32;33m[RSCT]\033[32;32m➤\x1b[0m"
 
 def clear():
     os.system('clear')
@@ -251,7 +251,7 @@ chk()
 os.system('clear')
 
 def linex():
-    print(f'{RED}==========================================================')
+    print(f'{GREEN}==========================================================')
 def checks(ok,cp):
     if not len(ok) != 0:
         pass
@@ -373,7 +373,7 @@ def xyz():
     print('           \x1b[97m[\033[32;41m  R S C T T E A M   \033[0;m] ')
     print(f"")
     print(f'{GREEN}══════════════════════════════════════════════════════')
-    print(f" {WHITE}TODAY DATE & TIME     :{GREEN} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print(f" {WHITE}TODAY DATE & TIME     :{GREEN} {ha}/{bu}/{ta} {WHITE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print(f"{BLUE}══════════════════════════════════════════════════════")
     print(f"{WHITE}[01] {GREEN}RANDOM SIM NUMBER CLONE NIG  V1")
     print(f"{WHITE}[02] {GREEN}RANDOM SIM CLONE NIG  V1")

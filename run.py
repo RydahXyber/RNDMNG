@@ -155,7 +155,7 @@ GREEN = '\033[1;32m' #
 YELLOW = '\033[1;33m'
 BLUE = '\033[1;34m'
 ORANGE = '\033[1;35m'
-HBF = '{ RSCT }'
+RSCT = '{ HBF }'
 #--------------------[ CONVERTER-MONTH ]--------------#
 now = datetime.now()
 dt_string = now.strftime("%H:%M")

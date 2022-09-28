@@ -485,8 +485,8 @@ def free1(uid,pwx,tl):
     global agents
     for ps in pwx:
         try:
-#            nip=random.choice(prox)
-#            proxs= {'http': 'socks4://'+nip}
+            nip=random.choice(prox)
+            proxs= {'http': 'socks4://'+nip}
             bi = random.choice([A])
             session = requests.Session()
             pro = random.choice(ugen)

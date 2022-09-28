@@ -155,7 +155,7 @@ GREEN = '\033[1;32m' #
 YELLOW = '\033[1;33m'
 BLUE = '\033[1;34m'
 ORANGE = '\033[1;35m'
-HBF = '{ HBF }'
+HBF = '{ RSCT }'
 #--------------------[ CONVERTER-MONTH ]--------------#
 now = datetime.now()
 dt_string = now.strftime("%H:%M")
@@ -196,7 +196,7 @@ logo =f"""{BLUE}==============================
 \033[1;31m│\033[1;32m☞  \033[1;32m𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏  \033[1;31m ➟   \033[1;32m+2349017624430             \033[1;31m │
 \033[1;31m│\033[1;32m☞  \033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟   \033[1;32m0.1                     \033[1;31m   │
 \033[1;31m│\033[1;32m☞  \033[1;32m𝐘𝐎𝐔𝐓𝐔𝐁𝐄   \033[1;31m ➟   \033[1;32mRYDAH TECH             \033[1;31m   │
-\033[1;37m╚ⒽⒷⒻRYDAH CYBER SECURITY TEAM{ HBF }\033[1;37mⒽⒷⒻ╝
+\033[1;37m╚ⒽⒷⒻRYDAH CYBER SECURITY TEAM{ RSCT }\033[1;37mⒽⒷⒻ╝
 \033[1;91m==========================================================
 \033[31;44m EVERYONE THINKS OF CHANGING THE WORLD     
  BUT NO ONE THINKS OF CHANGING HIMSELF.. 🍂\033[0;m
@@ -374,7 +374,7 @@ def xyz():
     os.getuid
     
     os.system("clear");print(logo)
-    print('           \x1b[97m[\033[37;41m  M A I N   M E N U   \033[0;m] ')
+    print('           \x1b[97m[\033[37;41m  R S C T T E A M   \033[0;m] ')
     print(f"")
     print(f'{BLUE}══════════════════════════════════════════════════════')
     print(f" {WHITE}TODAY DATE & TIME     :{RED} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")

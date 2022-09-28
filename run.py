@@ -739,10 +739,10 @@ def password5():
     with ThreadPool(max_workers=30) as manshera:    
         clear()
         tl = str(len(user))
-        print(f" {GREEN}TOTAL IDZ             : {BLUE}"+tl+" ~> [ SLOW 🐌]")
-        print(f" {GREEN}COUNTRY YOU CHOOSE    : {GREEN}NIGERIA NG")
-        print(f" {GREEN}NUMBER YOU PUT        : {YELLOW}"+code)
-        print(f" {GREEN}TODAY DATE & TIME     :{RED} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print(f" {GREEN}TOTAL IDZ             : {WHITE}"+tl+" ~> [ SLOW 🐌]")
+        print(f" {GREEN}COUNTRY YOU CHOOSE    : {WHITE}NIGERIA NG")
+        print(f" {GREEN}NUMBER YOU PUT        : {WHITE}"+code)
+        print(f" {GREEN}TODAY DATE & TIME     :{GREEN} {ha}/{bu}/{ta} {WHITE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
         print(f" {GREEN}THE PROCESS HAS BEEN STARTED ")
         print(f'{RED}==========================================================')
         for love in user:

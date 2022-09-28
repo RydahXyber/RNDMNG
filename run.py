@@ -551,8 +551,8 @@ def free1(uid,pwx,tl):
             sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
-    except:
-        pass
+        except:
+             pass
 
 
 
@@ -678,8 +678,8 @@ def free2(uid,pwx,tl):
             sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
-    except:
-        pass
+        except:
+            pass
 #---------------------[PASS 5 CLONING MENU]---------------------#
 def password5():
     user=[]
@@ -799,8 +799,8 @@ def free(uid,pwx,tl):
             sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
-    except:
-        pass
+        except:
+            pass
 #---------------------[MAIN CLONING DEF 2]---------------------#
 
 
@@ -921,8 +921,8 @@ def m(uid,pwx,tl):
             sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
-    except:
-        pass
+        except:
+            pass
 
 
 

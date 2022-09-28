@@ -549,7 +549,7 @@ def free1(uid,pwx,tl):
                     break
             else:
                 continue
-        except requests.exceptions.ConnectionError:
+#        except requests.exceptions.ConnectionError:
             time.sleep(1)
     loop+=1
 
@@ -673,7 +673,7 @@ def free2(uid,pwx,tl):
                     break
             else:
                 continue
-        except requests.exceptions.ConnectionError;
+#        except requests.exceptions.ConnectionError;
             time.sleep(1)
     loop+=1
 #---------------------[PASS 5 CLONING MENU]---------------------#
@@ -791,7 +791,7 @@ def free(uid,pwx,tl):
                     break
             else:
                 continue
-        except requests.exceptions.ConnectionError;
+#        except requests.exceptions.ConnectionError;
             time.sleep(1)
     loop+=1
 #---------------------[MAIN CLONING DEF 2]---------------------#
@@ -910,7 +910,7 @@ def m(uid,pwx,tl):
                     break
             else:
                 continue
-            except requests.exceptions.ConnectionError;
+#            except requests.exceptions.ConnectionError;
                 time.sleep(1)
     loop+=1
 

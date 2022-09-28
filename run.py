@@ -188,14 +188,14 @@ logo =f"""{GREEN}━━━━━━━━━━━━━━━━━━━━━
 {GREEN}    ━━━━━━━━━━━━━━━━━━━━━      
 {GREEN}    ━━━━━━━━━━━━━━━━━━━━━
 {GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\033[1;31m│\033[1;32m☞  \033[1;32m𝐀𝐔𝐓𝐇𝐎𝐑     \033[1;31m➟   \033[1;32mRYDAHXYBER     \033[1;31m│
-\033[1;31m│\033[1;32m☞  \033[1;32m𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊   \033[1;31m➟   \033[1;32mANONYMOUS\033[1;31m     │
-\033[1;31m│\033[1;32m☞  \033[1;32m𝐆𝐈𝐓𝐇𝐔𝐁    \033[1;31m ➟   \033[1;32mRYDAH06             \033[1;31m │
-\033[1;31m│\033[1;32m☞  \033[1;32m𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏  \033[1;31m ➟   \033[1;32m+2349017624430             \033[1;31m │
-\033[1;31m│\033[1;32m☞  \033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟   \033[1;32m0.1                     \033[1;31m   │
-\033[1;31m│\033[1;32m☞  \033[1;32m𝐘𝐎𝐔𝐓𝐔𝐁𝐄   \033[1;31m ➟   \033[1;32mRYDAH TECH             \033[1;31m   │
+\033[1;31m│\033[1;32m☞  \033[1;32m𝐀𝐔𝐓𝐇𝐎𝐑     \033[1;31m➟   \033[1;32mRYDAHXYBER     \033[1;31m
+\033[1;31m│\033[1;32m☞  \033[1;32m𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊   \033[1;31m➟   \033[1;32mANONYMOUS\033[1;31m     
+\033[1;31m│\033[1;32m☞  \033[1;32m𝐆𝐈𝐓𝐇𝐔𝐁    \033[1;31m ➟   \033[1;32mRYDAH06             \033[1;31m
+\033[1;31m│\033[1;32m☞  \033[1;32m𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏  \033[1;31m ➟   \033[1;32m+2349017624430             \033[1;31m
+\033[1;31m│\033[1;32m☞  \033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟   \033[1;32m0.1                     \033[1;31m
+\033[1;31m│\033[1;32m☞  \033[1;32m𝐘𝐎𝐔𝐓𝐔𝐁𝐄   \033[1;31m ➟   \033[1;32mRYDAH TECH             \033[1;31m
 \033[1;91m==========================================================
-\033[31;44m      DONT THINK YOURE HACKER BY USING READYMADE TOOLS                 \033[0;m
+\033[31;44m    DONT THINK YOURE HACKER BY USING READYMADE TOOLS     \033[0;m
 \033[1;91m=========================================================="""
 
 def chk(): 
@@ -372,14 +372,14 @@ def xyz():
     os.system("clear");print(logo)
     print('           \x1b[97m[\033[37;41m  R S C T T E A M   \033[0;m] ')
     print(f"")
-    print(f'{BLUE}══════════════════════════════════════════════════════')
-    print(f" {WHITE}TODAY DATE & TIME     :{RED} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print(f'{GREEN}══════════════════════════════════════════════════════')
+    print(f" {WHITE}TODAY DATE & TIME     :{GREEN} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
     print(f"{BLUE}══════════════════════════════════════════════════════")
-    print(f"{RED}[01] {WHITE}RANDOM SIM NUMBER CLONE NIG  V1")
-    print(f"{RED}[02] {WHITE}RANDOM SIM CLONE NIG  V1")
-    print(f"{RED}[03] {WHITE}OWNER FB ID")
-    print(f"{RED}[04] {WHITE}OWNER WHATSAPP")
-    print(f"{RED}[00] {WHITE}EXIT PROGRAM ")
+    print(f"{GREEN}[01] {WHITE}RANDOM SIM NUMBER CLONE NIG  V1")
+    print(f"{GREEN}[02] {WHITE}RANDOM SIM CLONE NIG  V1")
+    print(f"{GREEN}[03] {WHITE}OWNER FB ID")
+    print(f"{GREEN}[04] {WHITE}OWNER WHATSAPP")
+    print(f"{GREEN}[00] {WHITE}EXIT PROGRAM ")
     print(f"")
     print(f"\033[1;91m========================================================")
     hamii = input("[√] CHOOSE : ")

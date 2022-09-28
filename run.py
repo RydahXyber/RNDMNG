@@ -404,14 +404,14 @@ def password():
     
     os.system("clear")
     print(logo)
-    print('       \x1b[97m[\033[32;41m  P A S S W O R D   M E N U   \033[0;m] ')
+    print('       \x1b[97m      [\033[32;41m  P A S S W O R D   M E N U   \033[0;m] ')
     print(f"")
     print(f"{GREEN}[01] {WHITE} 1 PASSWORD   {GREEN} [ FASTEST⚡]")
     print(f"{GREEN}[02] {WHITE} 2 PASSWORDS  {GREEN} [ FAST     ]")
     print(f"{GREEN}[03] {WHITE} 5 PASSWORDS  {GREEN} [ SLOW   🐌]")
     linex()
     print("")
-    passX = input(f" {GREEN}CHOOSE{hamii2} : ")
+    passX = input(f" {GREEN}CHOOSE : ")
     if passX in ['1','01']:
         os.system("xdg-open https://facebook.com/groups/492909121746564/")
         password1()
@@ -435,7 +435,7 @@ def password1():
     print(logo)
     print(f"")
     clear()
-    print(f"          \x1b[97m[\033[37;41m  C O D E    M E N U   \033[0;m]")
+    print(f"          \x1b[97m[\033      [37;41m  C O D E    M E N U   \033[0;m]")
     print(f"")
     linex()
     print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
@@ -456,7 +456,7 @@ def password1():
     print(f" Multilinks Number : 234709")
     print(f"")
     linex()
-    print(f"\x1b[97m[\033[32;41mRSCT NIG BASED TOOLS   \033[0;m]")
+    print(f"\x1b[97m                 [\033[32;41mRSCT NIG BASED TOOLS   \033[0;m]")
     print("")
     linex()
     code = input(' PUT CODE : ')
@@ -552,7 +552,7 @@ def free1(uid,pwx,tl):
             else:
                 continue
             loop+=1
-            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.write(f'\r\033[1;32m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
         except:
@@ -573,7 +573,7 @@ def password2():
     print(logo)
     print(f"")
     clear()
-    print(f"          \x1b[97m[\033[32;41m  C O D E    M E N U   \033[0;m]")
+    print(f"          \x1b[97m[\033       [32;41m  C O D E    M E N U   \033[0;m]")
     print(f"")
     linex()
     print(f"        \x1b[97m[\033[92;42mEXAMPLE :👇\033[0;m]")
@@ -689,7 +689,7 @@ def free2(uid,pwx,tl):
             else:
                 continue
             loop+=1
-            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.write(f'\r\033[1;32m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
     except:
@@ -704,7 +704,7 @@ def password5():
     print(logo)
     print(f"")
     clear()
-    print(f"          \x1b[97m[\033[32;41m  C O D E    M E N U   \033[0;m]")
+    print(f"          \x1b[97m[\033   [32;41m  C O D E    M E N U   \033[0;m]")
     print(f"")
     linex()
     print(f"        \x1b[97m[\033[32;42mEXAMPLE :👇\033[0;m]")
@@ -820,7 +820,7 @@ def free(uid,pwx,tl):
             else:
                 continue
             loop+=1
-            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.write(f'\r\033[1;32m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
     except:
@@ -834,7 +834,7 @@ def Tabii2():
     os.getuid
     os.geteuid
     clear()
-    print(f"          \x1b[97m[\033[37;41m  C O D E    M E N U   \033[0;m]")
+    print(f"          \x1b[97m[\033       [37;41m  C O D E    M E N U   \033[0;m]")
     print(f"")
     linex()
     print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
@@ -952,7 +952,7 @@ def m(uid,pwx,tl):
             else:
                 continue
             loop+=1
-            sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
+            sys.stdout.write(f'\r\033[1;32m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
     except:

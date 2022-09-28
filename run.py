@@ -678,8 +678,8 @@ def free2(uid,pwx,tl):
             sys.stdout.write(f'\r\33[1;37m[RYDAH 🔥] [%s] \33[1;97m[OK:%s{hamii2}CP:%s]'%(loop,len(ok),len(cp))), 
             sys.stdout.flush()
             checks(ok,cp)
-        except:
-            pass
+    except:
+        pass
 #---------------------[PASS 5 CLONING MENU]---------------------#
 def password5():
     user=[]
